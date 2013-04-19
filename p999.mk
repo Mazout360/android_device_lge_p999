@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ueventd.rc:root/ueventd.rc \
     device/lge/p999/vold.fstab:system/etc/vold.fstab \
     device/lge/p999/gps.conf:system/etc/gps.conf \
+    device/lge/p999/fstab.p999:root/fstab.p999 \
     device/lge/p999/init.vsnet:system/bin/init.vsnet
 
 PRODUCT_COPY_FILES += \
